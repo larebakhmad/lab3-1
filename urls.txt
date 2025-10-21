@@ -1,0 +1,5 @@
+https://www.google.com
+https://github.com
+https://example.com
+# invalid or slow
+https://does-not-exist.example

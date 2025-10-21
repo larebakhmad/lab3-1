@@ -1,0 +1,2 @@
+bash -c 'up() { ping -c1 "$1" &>/dev/null && echo "$1 is up" || echo "$1 is down"; }; up 8.8.8.8; up 172.17.0.1'
+bash -c 'rot13() { echo "$1" | tr "A-Za-z" "N-ZA-Mn-za-m"; }; rot13 "Hello World"; rot13 "Uryyb Jbeyq"'

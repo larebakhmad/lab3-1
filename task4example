@@ -1,0 +1,4 @@
+cat /etc/passwd | grep bash | cut -d: -f1
+curl -sL example.com | tr -cs '[:alnum:]' '\n' | sort | uniq -c | sort -nr | head
+echo "8.8.8.8 1.1.1.1" | xargs -n1 ping -c1
+cat urls.txt | xargs -n1 curl -I

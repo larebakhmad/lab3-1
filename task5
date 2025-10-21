@@ -1,0 +1,9 @@
+Using curl to fetch your publuc ip:
+curl -s https://api.ipify.org?format=json
+
+Using curl -I to get headers from three different sites:
+curl -I https://www.google.com -s; echo; curl -I https://github.com -s; echo; curl -I https://example.com -s
+
+Creating downloads/ and use wget -P downloads/ <url> to save a file:
+mkdir -p downloads
+wget -P downloads/ https://example.com -q -O downloads/example.html || true; ls -l downloads
